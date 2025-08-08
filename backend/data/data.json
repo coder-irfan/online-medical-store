@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Sanitizer",
+    "image": "/images/hand-sanitizer.svg",
+    "price": 15.00,
+    "inStock": true,
+    "label": "Sanitizer"
+  },
+
+  {
+    "name": "Face wash",
+    "image": "/images/face-wash.svg",
+    "price": 20.00,
+    "inStock": true,
+    "label": "Top deals"
+  },
+
+  {
+    "name": "Facial mask",
+    "image": "/images/face-mask.svg",
+    "price": 10.00,
+    "inStock": true,
+    "label": "Face mask"
+  },
+
+  {
+    "name": "Microscope",
+    "image": "/images/microscope.svg",
+    "price": 45.00,
+    "inStock": true,
+    "label": "New"
+  },
+
+  {
+    "name": "Pulse oximeter",
+    "image": "/images/sleek-pulse-oximeter.svg",
+    "price": 19.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Vitamin serum",
+    "image": "/images/serum.svg",
+    "price": 20.00,
+    "inStock": true
+  },
+
+  {
+    "name": "High protien",
+    "image": "/images/high-protien.svg",
+    "price": 50.00,
+    "inStock": true
+  },
+  
+  {
+    "name": "B12 medicine",
+    "image": "/images/b12-medicine.svg",
+    "price": 19.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Tonometer",
+    "image": "/images/tonometer.svg",
+    "price": 19.00,
+    "inStock": true
+  },
+
+  {
+    "name": "ECG cardiopraph",
+    "image": "/images/ecg-cardiographic.svg",
+    "price": 20.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Blood glucose meter",
+    "image": "/images/blood-glucose-meter.svg",
+    "price": 15.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Lab hand gloves",
+    "image": "/images/lab-hand-gloves.svg",
+    "price": 12.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Stethoscope",
+    "image": "/images/stethoscope.svg",
+    "price": 20.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Inhaler pressure drop",
+    "image": "/images/blue-asthma.svg",
+    "price": 35.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Multi vitamin",
+    "image": "/images/multi-vitamin.svg",
+    "price": 20.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Hair tablets",
+    "image": "/images/hair-tablets.svg",
+    "price": 19.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Pressure measuring",
+    "image": "/images/blood-pressure-monitor.svg",
+    "price": 25.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Diving mask",
+    "image": "/images/snorkel-diving-mask-isolated.svg",
+    "price": 40.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Temprature gun",
+    "image": "/images/protective-equipment.svg",
+    "price": 20.00,
+    "inStock": true
+  },
+
+  {
+    "name": "Nebulizer mask",
+    "image": "/images/nebulizer-isolated.svg",
+    "price": 15.00,
+    "inStock": true
+  }
+]

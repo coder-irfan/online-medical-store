@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-link {
+    @apply text-neutral-darkBrown lg:text-lg relative after:absolute after:left-1/2 after:-bottom-1 after:w-0 after:h-[0.125rem] after:bg-neutral-warmGray
+    after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full
+}
+
+.input {
+    @apply py-2.5 md:py-4 px-6 rounded-[2.5rem] text-neutral-darkBrown border-[0.125rem] border-neutral-warmGray
+   focus:outline-none focus:border-neutral-darkestBrown w-full bg-neutral-ivory
+}
+
+.contact-input {
+    @apply py-2.5 px-9 rounded-lg text-neutral-darkBrown border-[0.125rem] border-neutral-warmGray box-border
+  placeholder:text-neutral-warmGray focus:outline-none focus:border-neutral-darkestBrown w-full bg-neutral-ivory
+}
+
+.error {
+    @apply text-sm font-medium text-neutral-red pl-2 pt-1
+}
+
+.footer-link {
+    @apply text-neutral-warmGray font-medium xl:text-lg hover:text-neutral-darkBrown transition-colors duration-200
+}
+
+.footer-media {
+    @apply w-8 h-8 p-2 bg-neutral-darkBrown rounded-lg hover:bg-neutral-warmGray transition-colors duration-300 cursor-pointer
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', 'sans-serif';
+    background-color: hsl(42, 21%, 92%);
+    min-height: 100vh;
+    max-width: 110rem;
+    margin-inline: auto;
+}
