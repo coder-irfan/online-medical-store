@@ -10,7 +10,13 @@ const app = express();
 
 dotenv.config();
 
-app.use(cors());
+const corsOptions = {
+  origin: "*", // allow all origins (you can restrict to your frontend URL later)
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -54,13 +60,6 @@ app.delete("/api/products/bulk-delete", async (req, res) => {
 });
 
 app.use("/images", express.static(path.join(__dirname, "public/images")));
-
-const frontendPath = path.join(__dirname, "frontend", "dist");
-app.use(express.static(frontendPath));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(frontendPath, "index.html"));
-});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

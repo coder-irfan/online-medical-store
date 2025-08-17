@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 function StoreCollection({setCartItems}) {
   const [products, setProducts] = useState([]); 
-  const BACKEND_URL = "http://localhost:5000";
+  const BACKEND_URL = "https://online-medical-store-backend.onrender.com";
   const [quantity, setQuantity] = useState({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -12,7 +12,7 @@ function StoreCollection({setCartItems}) {
     setLoading(true);
     setError(null);
 
-    fetch('http://localhost:5000/api/products')
+    fetch(`${BACKEND_URL}/api/products`)
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch products");
         return res.json();

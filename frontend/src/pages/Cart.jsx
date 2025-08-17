@@ -31,7 +31,7 @@ function Cart({cartItems, setCartItems}) {
     setLoading(true);
 
     try { 
-      const res = await fetch('http://localhost:5000/api/orders', {
+      const res = await fetch('https://online-medical-store-backend.onrender.com/api/orders', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -87,7 +87,7 @@ function Cart({cartItems, setCartItems}) {
                   <div className="flex justify-between items-center bg-neutral-lightBeige p-4 rounded-md">
                     <div className="flex items-center gap-4">
                       <div className="">
-                        <img src={`http://localhost:5000${item.image}`} alt={item.name} className="max-w-16 h-16" />
+                        <img src={`https://online-medical-store-backend.onrender.com"${item.image}`} alt={item.name} className="max-w-16 h-16" />
                       </div>
 
                       <div className="">
