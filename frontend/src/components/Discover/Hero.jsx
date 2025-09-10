@@ -9,6 +9,7 @@ function Hero() {
           src="images/three-grouped-bills.svg" 
           alt="grouped-bills" 
           className="absolute bottom-0 left-0 w-full max-w-24 sm:max-w-40 lg:max-w-48"
+          width={560} height={630}
         />
 
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-10">

@@ -8,6 +8,7 @@ function OurStory() {
           src="images/mixed-pills.svg" 
           alt="mixed-pills" 
           className="absolute bottom-0 left-0 w-full max-w-20 sm:max-w-32 lg:max-w-40"
+          width={560} height={400}
         />
 
         <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-between gap-12 md:gap-10">

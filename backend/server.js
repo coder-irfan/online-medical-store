@@ -11,7 +11,7 @@ const app = express();
 dotenv.config();
 
 const corsOptions = {
-  origin: "*", // allow all origins (you can restrict to your frontend URL later)
+  origin: "*",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };

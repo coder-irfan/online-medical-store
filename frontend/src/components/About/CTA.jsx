@@ -18,10 +18,10 @@ function CTA({ isLoggedIn }) {
           </div>
 
           <div className="grid grid-cols-2 place-items-center gap-x-4 md:gap-x-6 xl:gap-x-8">
-            <img src="images/about-section-pill1.svg" alt="pills" className="rounded-md"/>
-            <img src="images/about-section-pill2.svg" alt="pills" className="rounded-md" />
-            <img src="images/about-section-pill3.svg" alt="pills" className="rounded-md" />
-            <img src="images/about-section-pill4.svg" alt="pills" className="rounded-md" />
+            <img src="images/about-section-pill1.svg" alt="pills" className="rounded-md" width={302} height={331} />
+            <img src="images/about-section-pill2.svg" alt="pills" className="rounded-md" width={302} height={257} />
+            <img src="images/about-section-pill3.svg" alt="pills" className="rounded-md" width={302} height={257} />
+            <img src="images/about-section-pill4.svg" alt="pills" className="rounded-md" width={302} height={331} />
           </div>
         </div>
       </section>

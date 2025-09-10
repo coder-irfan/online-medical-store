@@ -10,6 +10,8 @@ function Cart({cartItems, setCartItems}) {
 
   const [isLoggedIn, SetisLoggedIn] = useState(false);
 
+  const BACKEND_URL="https://online-medical-store-backend.onrender.com";
+
   useEffect(() => {
     const auth = getAuth();
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -87,7 +89,7 @@ function Cart({cartItems, setCartItems}) {
                   <div className="flex justify-between items-center bg-neutral-lightBeige p-4 rounded-md">
                     <div className="flex items-center gap-4">
                       <div className="">
-                        <img src={`https://online-medical-store-backend.onrender.com"${item.image}`} alt={item.name} className="max-w-16 h-16" />
+                        <img src={`${BACKEND_URL}${item.image}`} alt={item.name} className="max-w-16 h-16" />
                       </div>
 
                       <div className="">

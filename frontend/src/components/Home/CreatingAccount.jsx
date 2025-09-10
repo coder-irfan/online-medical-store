@@ -25,9 +25,11 @@ function CreatingAccount({ isLoggedIn }) {
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 px-4 md:px-10 lg:px-20 xl:px-32">
           <div className="">
             <img 
-              src="images/young-woman-taking-vitamind.svg"
-              alt="woman taking vitaminD" 
+              src="images/man-taking-pill.jpg"
+              alt="man taking pill" 
               className="w-[630px] max-w-full min-h-[350px] lg:min-h-[450px] xl:min-h-[560px] object-cover rounded-md md:rounded-xl"
+              width={560}
+              height={630}
             />
           </div>
 
@@ -72,9 +74,11 @@ function CreatingAccount({ isLoggedIn }) {
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 px-4 md:px-10 lg:px-20 xl:px-32">
           <div className="">
             <img 
-              src="images/young-woman-taking-vitamind.svg"
-              alt="woman taking vitaminD" 
+              src="images/man-taking-pill.jpg"
+              alt="man taking pill" 
               className="w-[630px] max-w-full min-h-[350px] lg:min-h-[450px] xl:min-h-[560px] object-cover rounded-md md:rounded-xl"
+              width={560}
+              height={630}
             />
           </div>
 

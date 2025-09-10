@@ -4,13 +4,13 @@ const Order = require("../models/Orders");
 
 router.post("/", async (req, res) => {
   try {
-    const { userId, items, totalAmount, data } = req.body;
+    const { userId, items, totalAmount, date } = req.body;
 
     const newOrder = new Order({
       userId,
       items,
       totalAmount,
-      data,
+      date,
     });
 
     await newOrder.save();

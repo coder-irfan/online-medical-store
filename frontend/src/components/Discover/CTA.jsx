@@ -28,9 +28,9 @@ function CTA() {
 
           <div className="">
             <img 
-              src="images/young-woman-is-sitting-kitchen-carefully-examining-smartphone-with-one-hand-casually.svg" 
+              src="images/pill-tablets-medicine-stock.jpg" 
               alt="young-woman-carefully-examining-pill" 
-              className="w-full max-w-[40rem]"
+              className="w-full max-w-[40rem] rounded-lg brightness-90"
             />
           </div>
         </div>

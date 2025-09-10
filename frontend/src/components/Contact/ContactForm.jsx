@@ -92,7 +92,7 @@ function ContactForm() {
                 </div>
               </div>
 
-              <div className="flex flex-col md:flex-row md:items-center gap-4">
+              <div className="flex flex-col md:flex-row md:items-center gap-4 overflow-hidden">
                 <div className="space-y-2 w-full sm:w-1/2">
                   <label className="text-neutral-lightBrown text-sm">Phone Number</label>
                   <div className="relative">

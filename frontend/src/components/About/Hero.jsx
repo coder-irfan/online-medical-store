@@ -18,13 +18,13 @@ function Hero() {
           <div className="flex flex-col sm:flex-row justify-center items-start gap-4">
             <img 
               src="images/woman-checking-medicins.svg" 
-              alt="" 
+              alt="woman-checking-medicins" 
               className="w-full max-h-[250px] sm:max-h-[350px] max-w-[500px] mx-auto sm:mx-0 object-cover rounded-md" height={581} width={552} 
             />
 
             <img 
-              src="images/girl-taking-medicine.svg" 
-              alt=""
+              src="images/woman-grabbing-pill.jpg" 
+              alt="woman-grabbing-pill"
               className="w-full max-h-[250px] sm:max-h-[350px] max-w-[500px] mx-auto sm:mx-0 object-cover rounded-md object-top" height={333} width={362} 
             />
           </div>

@@ -31,7 +31,7 @@ function Blog() {
             {insights.map((insight, id) => (
               <div key={id} className="flex gap-4 xl:gap-6">
                 <div className="">
-                  <img src={insight.img} alt="pills" className="max-w-full w-[300px] md:w-[500px] rounded-lg" />
+                  <img src={insight.img} alt="pills" className="max-w-full w-[300px] md:w-[500px] rounded-lg" width={335} height={404} />
                 </div>
 
                 <div className="space-y-6 xl:space-y-10">

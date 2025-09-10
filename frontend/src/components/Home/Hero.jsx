@@ -37,6 +37,8 @@ function Hero() {
               src="images/home-hero-medicins.svg" 
               alt="" 
               className="w-full max-w-96 md:max-w-full"
+              width={668}
+              height={717}
             />
           </div>
         </div>
