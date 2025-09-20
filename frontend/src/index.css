@@ -4,7 +4,7 @@
 
 .hover-link {
     @apply text-neutral-darkBrown lg:text-lg relative after:absolute after:left-1/2 after:-bottom-1 after:w-0 after:h-[0.125rem] after:bg-neutral-warmGray
-    after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full
+    after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full after:rounded-tl-sm after:rounded-tr-sm
 }
 
 .input {
