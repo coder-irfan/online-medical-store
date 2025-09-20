@@ -18,7 +18,7 @@ It is an **online medical store** where users can browse products, add items to 
 - Add to cart & order placement  
 - Responsive design for desktop and mobile  
 - Backend API connected to MongoDB  
-- Images served from backend  
+- All images served from backend  
 
 ---
 
