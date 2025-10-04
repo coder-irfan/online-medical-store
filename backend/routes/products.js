@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
 });
 
 // Update images from svg to webp
-app.put("/change-images", async (req, res) => {
+router.put("/change-images", async (req, res) => {
   try {
     const products = await Product.find();
 
