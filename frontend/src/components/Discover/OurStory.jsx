@@ -34,7 +34,7 @@ function OurStory() {
 
           <div className="">
             <img 
-              src="images/female-holding-white-pill.svg" 
+              src="images/female-holding-white-pill.webp" 
               alt="" 
               className="w-full max-w-[35rem] h-[18rem] sm:h-[20rem] md:h-[25rem] object-cover rounded-lg"
             />

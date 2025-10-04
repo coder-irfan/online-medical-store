@@ -11,14 +11,14 @@ function FollowUs() {
 
           <div className="flex items-start gap-2 xl:gap-6 justify-center">
             <div className="">
-              <img src="images/group-of-bills1.svg" alt="bills" className="" width={302} height={460} />
+              <img src="images/group-of-bills1.webp" alt="bills" className="" width={302} height={460} />
             </div>
             <div className="relative">
-              <img src="images/group-of-bills2.svg" alt="bills" width={302} height={380} />
+              <img src="images/group-of-bills2.webp" alt="bills" width={302} height={380} />
               <img src="images/instagram-medifit.svg" alt="" className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-16 sm:w-24" />
             </div>
             <div className="">
-              <img src="images/group-of-bills3.svg" alt="bills" className="" width={302} height={337} />
+              <img src="images/group-of-bills3.webp" alt="bills" className="" width={302} height={337} />
             </div>        
             <div className="">
               <img src="images/group-of-bills4.svg" alt="bills" className="" width={302} height={337} />

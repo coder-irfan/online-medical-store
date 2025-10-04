@@ -35,7 +35,7 @@ function Hero() {
 
           <div className="">
             <img 
-              src="images/girl-hand-with-bill.svg" 
+              src="images/girl-hand-with-bill.webp" 
               alt="" 
               className="w-full max-w-[35rem] h-[430px] sm:h-[500px] md:h-auto rounded-tr-[5rem] rounded-bl-[5rem] object-cover"
             />

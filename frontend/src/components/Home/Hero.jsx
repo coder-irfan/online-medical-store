@@ -34,7 +34,7 @@ function Hero() {
 
           <div className="">
             <img 
-              src="images/home-hero-medicins.svg" 
+              src="images/home-hero-medicins.webp" 
               alt="" 
               className="w-full max-w-96 md:max-w-full"
               width={668}
